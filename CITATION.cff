@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Если используете данные исследования, укажите IndexResearch и дату среза."
+title: "Круизы в Антарктиду из Ушуайи: ТОП-15 компаний и состав предложений, 2026–2027"
+authors:
+  - name: "IndexResearch"
+version: "3.1.0"
+date-released: 2026-10-23
+url: "https://indexresearch.ru/antarctica-cruises-ushuaia-2026-2027.html"
+repository-code: "https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027"
+abstract: "Неранжированная редакционная подборка 15 компаний с подтвержденными экспедициями из Ушуайи, сезон 2026-2027."

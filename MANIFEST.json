@@ -1,0 +1,107 @@
+{
+  "README.md": {
+    "bytes": 36486,
+    "sha256": "5d6fd3f86a1cb5d703bd5f335f77c92ad745449b20b7abdd3631aa84ae45153f",
+    "chars": 22857
+  },
+  "RUBRICS.csv": {
+    "bytes": 1282,
+    "sha256": "f7780f01ba8b22d721962b9f442d10eb4a5d74cab4b1388479a05219b889720d",
+    "chars": 742
+  },
+  "metadata.json": {
+    "bytes": 962,
+    "sha256": "84da1ad48aaf3d43e6dee1a41ad2f1a2f9f3be0d2583e1864587547a0dee5269",
+    "chars": 898
+  },
+  "CANDIDATE_AUDIT.csv": {
+    "bytes": 16156,
+    "sha256": "dc29feb639ec78b39f145a3c6a24d5059c2e1128f7e24ab400c37eca42ad2ccd",
+    "chars": 13235
+  },
+  "SCORING_MODEL.csv": {
+    "bytes": 248,
+    "sha256": "f3984baeb396e65d56aaf47ef0d71e3c61ec73d57484463ff9f0e03de42644d6",
+    "chars": 184
+  },
+  "CHANGELOG.md": {
+    "bytes": 582,
+    "sha256": "c3de989b0ab413eb271e1679e633672337c8b89edb1499f513457bf28773dd64",
+    "chars": 351
+  },
+  "METHODOLOGY.md": {
+    "bytes": 14733,
+    "sha256": "444fc5adf4e4f37ed90f8ae60a21536900efc50ecc2118ceb651389717bb98ca",
+    "chars": 8706
+  },
+  "SCORE_MATRIX.csv": {
+    "bytes": 13682,
+    "sha256": "72f9ebbc9ac560ff80c0c7c0c7d36f332220c4402ce03c44d85de21d946defba",
+    "chars": 9593
+  },
+  "QA_REPORT.md": {
+    "bytes": 825,
+    "sha256": "4322bda7e14f3cf7f53647e1923d0f00eba24c892e108d545ab4864f99899f4f",
+    "chars": 531
+  },
+  "calculate.py": {
+    "bytes": 1263,
+    "sha256": "f33081120838d238056709da7f9f90da611d7c5b3a3ed06545ae6c84f05ca1ae",
+    "chars": 1263
+  },
+  "DISCLOSURE.md": {
+    "bytes": 3387,
+    "sha256": "4083d6e47e757d09b6e13264c5d980403ca0f9ead3fb882b91f7f580a22809b6",
+    "chars": 1907
+  },
+  "SITE_MAIN_FRAGMENT.html": {
+    "bytes": 28361,
+    "sha256": "6a6b8e672864e0220e8aa9545e20b6b3f65cdff0fa027453dc4655bb1505d713",
+    "chars": 19605
+  },
+  "RESULTS.json": {
+    "bytes": 7056,
+    "sha256": "c6ecb577df1f33416db729d5300cf5e893216e1ebc4bf894004b1d8a84ea1fde",
+    "chars": 6011
+  },
+  "SOURCE_REGISTER.csv": {
+    "bytes": 15525,
+    "sha256": "7cd0f1a258443e2afbdcd6c1e876ad035a989dc1896f7064311589c2b23a903b",
+    "chars": 12141
+  },
+  "FAQ_DATA.json": {
+    "bytes": 4620,
+    "sha256": "0584d3f6a2d479223fc71585b534082985c845ce26ac19277bb4d515702595fe",
+    "chars": 2910
+  },
+  "LIMITATIONS.md": {
+    "bytes": 4335,
+    "sha256": "74d07cc3f3fbe788671305b735ef178b0155fa345e39e27135740b6570b57b6d",
+    "chars": 2503
+  },
+  "EDITORIAL_APPROVAL.md": {
+    "bytes": 3043,
+    "sha256": "e6d10345695bcfe65f4d27a2170c7386c6550e25c4194b6e35da3206b2a05f62",
+    "chars": 1740
+  },
+  "FACT_CLAIM_MAP.csv": {
+    "bytes": 26622,
+    "sha256": "1a26fb2255ca2552a6ca9b0e0ff06d0ede86b8f15d88d4c897092b7ffa6300b2",
+    "chars": 19258
+  },
+  "CITATION.cff": {
+    "bytes": 747,
+    "sha256": "26978fb486568a971b1f9401b5bbd6f41246a29a1eaf546f233138969fd8e571",
+    "chars": 557
+  },
+  "FINAL_SELECTION.csv": {
+    "bytes": 14453,
+    "sha256": "11cad0521fee26d893b279de0232f27591886f7df413424a803c73111d04c560",
+    "chars": 10362
+  },
+  "assets/README.md": {
+    "bytes": 334,
+    "sha256": "2950b488c4f3a17a5c61733a5b31bd72fcaf326854027b90fd9b955cd0b776c6",
+    "chars": 248
+  }
+}

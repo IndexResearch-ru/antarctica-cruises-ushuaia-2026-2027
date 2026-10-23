@@ -1,0 +1,102 @@
+claim_id,participant_id,claim_type,claim,source_ids,evidence_status,scope,checked_on
+C0001,P01,offer_and_role,Ada Tours: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S001,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0002,P01,routes,Ada Tours: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S001,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0003,P01,package_dates,Ada Tours: даты выбранного примера коммерческого пакета: 27.12.2026–06.01.2027.,V3-S001,OFFICIAL_VENDOR_GITHUB_SOURCE,selected_example,2026-10-23
+C0004,P01,russian_catalogue,Ada Tours: официальная информация о направлении доступна на русском языке; язык менеджера или судовой команды отдельно не подтвержден.,V3-S001,CATALOGUE_ONLY,selected_example,2026-10-23
+C0005,P05,offer_and_role,АРТ-ТУР: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S006,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0006,P05,routes,АРТ-ТУР: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S006,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0007,P05,package_dates,АРТ-ТУР: даты выбранного примера коммерческого пакета: 12.11.2026–21.11.2026.,V3-S006,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0008,P05,ship,АРТ-ТУР: в выбранном примере названо судно SH Diana.,V3-S006,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0009,P05,hotel,АРТ-ТУР: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S006,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0010,P05,flights,АРТ-ТУР: авиаперелеты для выбранного опубликованного предложения имеют статус INCLUDED.,V3-S006,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0011,P05,transfers_scope,АРТ-ТУР: отдельные перечисленные в опубликованном варианте трансферы включены; это не подтверждает все возможные трансферные участки.,V3-S006,PARTIAL_SEGMENT_SCOPE,selected_example,2026-10-23
+C0012,P05,russian_catalogue,АРТ-ТУР: официальная информация о направлении доступна на русском языке; язык менеджера или судовой команды отдельно не подтвержден.,V3-S006,CATALOGUE_ONLY,selected_example,2026-10-23
+C0013,P02,offer_and_role,Квинта-тур: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S003,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0014,P02,routes,Квинта-тур: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S003,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0015,P02,package_dates,Квинта-тур: даты выбранного примера коммерческого пакета: 12.11.2026–21.11.2026.,V3-S003,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0016,P02,ship,Квинта-тур: в выбранном примере названо судно SH Diana.,V3-S003,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0017,P02,hotel,Квинта-тур: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S003,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0018,P02,flights,Квинта-тур: авиаперелеты для выбранного опубликованного предложения имеют статус INCLUDED.,V3-S003,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0019,P02,transfers_scope,Квинта-тур: отдельные перечисленные в опубликованном варианте трансферы включены; это не подтверждает все возможные трансферные участки.,V3-S003,PARTIAL_SEGMENT_SCOPE,selected_example,2026-10-23
+C0020,P02,russian_catalogue,Квинта-тур: официальная информация о направлении доступна на русском языке; язык менеджера или судовой команды отдельно не подтвержден.,V3-S003,CATALOGUE_ONLY,selected_example,2026-10-23
+C0021,P04,offer_and_role,Клуб полярных путешествий: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S005,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0022,P04,routes,Клуб полярных путешествий: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S005,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0023,P04,package_dates,Клуб полярных путешествий: даты выбранного примера коммерческого пакета: 08.12.2026–19.12.2026.,V3-S005,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0024,P04,russian_catalogue,Клуб полярных путешествий: официальная информация о направлении доступна на русском языке; язык менеджера или судовой команды отдельно не подтвержден.,V3-S005,CATALOGUE_ONLY,selected_example,2026-10-23
+C0025,P03,offer_and_role,RussiaDiscovery: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S004,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0026,P03,routes,RussiaDiscovery: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S004,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0027,P03,package_dates,RussiaDiscovery: даты выбранного примера коммерческого пакета: 03.11.2026–15.11.2026.,V3-S004,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0028,P03,ship,RussiaDiscovery: в выбранном примере названо судно Ortelius.,V3-S004,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0029,P03,flights,RussiaDiscovery: авиаперелеты для выбранного опубликованного предложения имеют статус EXCLUDED.,V3-S004,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0030,P03,russian_catalogue,RussiaDiscovery: официальная информация о направлении доступна на русском языке; язык менеджера или судовой команды отдельно не подтвержден.,V3-S004,CATALOGUE_ONLY,selected_example,2026-10-23
+C0031,P22,offer_and_role,Chimu Adventures: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S008,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0032,P22,routes,Chimu Adventures: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S008,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0033,P22,package_dates,Chimu Adventures: даты выбранного примера коммерческого пакета: 22.11.2026–03.12.2026 (12-day package; day 1 Ushuaia hotel).,V3-S008,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0034,P22,ship,Chimu Adventures: в выбранном примере названо судно Ocean Albatros.,V3-S008,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0035,P22,hotel,Chimu Adventures: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S008,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0036,P22,transfers_scope,Chimu Adventures: отдельные перечисленные в опубликованном варианте трансферы включены; это не подтверждает все возможные трансферные участки.,V3-S008,PARTIAL_SEGMENT_SCOPE,selected_example,2026-10-23
+C0037,P13,offer_and_role,G Adventures: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S007,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0038,P13,routes,G Adventures: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S007,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0039,P13,package_dates,G Adventures: даты выбранного примера коммерческого пакета: 11.11.2026–23.11.2026 (13 дней).,V3-S007,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0040,P13,ship,G Adventures: в выбранном примере названо судно G Expedition.,V3-S007,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0041,P13,hotel,G Adventures: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S007,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0042,P13,transfers_scope,G Adventures: отдельные перечисленные в опубликованном варианте трансферы включены; это не подтверждает все возможные трансферные участки.,V3-S007,PARTIAL_SEGMENT_SCOPE,selected_example,2026-10-23
+C0043,P23,offer_and_role,Intrepid Travel: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S009,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0044,P23,routes,Intrepid Travel: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S009,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0045,P23,package_dates,Intrepid Travel: даты выбранного примера коммерческого пакета: 04.11.2026–14.11.2026.,V3-S009,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0046,P23,ship,Intrepid Travel: в выбранном примере названо судно Ocean Albatros.,V3-S009,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0047,P23,hotel,Intrepid Travel: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S009,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0048,P12,offer_and_role,Aurora Expeditions: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S014,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0049,P12,routes,Aurora Expeditions: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S014,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0050,P12,package_dates,Aurora Expeditions: даты выбранного примера коммерческого пакета: 13.11.2026–25.11.2026.,V3-S014,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0051,P12,ship,Aurora Expeditions: в выбранном примере названо судно Sylvia Earle.,V3-S014,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0052,P12,hotel,Aurora Expeditions: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S014,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0053,P12,flights,Aurora Expeditions: авиаперелеты для выбранного опубликованного предложения имеют статус EXCLUDED.,V3-S014,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0054,P12,transfers_scope,Aurora Expeditions: отдельные перечисленные в опубликованном варианте трансферы включены; это не подтверждает все возможные трансферные участки.,V3-S014,PARTIAL_SEGMENT_SCOPE,selected_example,2026-10-23
+C0055,P17,offer_and_role,Oceanwide Expeditions: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S019,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0056,P17,routes,Oceanwide Expeditions: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S019,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0057,P17,package_dates,Oceanwide Expeditions: даты выбранного примера коммерческого пакета: 27.12.2026–06.01.2027.,V3-S019,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0058,P17,ship,Oceanwide Expeditions: в выбранном примере названо судно Hondius.,V3-S019,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0059,P17,hotel,Oceanwide Expeditions: гостиница для выбранного опубликованного предложения имеет статус EXCLUDED.,V3-S021,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0060,P17,flights,Oceanwide Expeditions: авиаперелеты для выбранного опубликованного предложения имеют статус EXCLUDED.,V3-S021,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0061,P15,offer_and_role,Polar Latitudes Expeditions: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S016,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0062,P15,routes,Polar Latitudes Expeditions: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S016,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0063,P15,package_dates,Polar Latitudes Expeditions: даты выбранного примера коммерческого пакета: 04.11.2026–14.11.2026.,V3-S016,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0064,P15,ship,Polar Latitudes Expeditions: в выбранном примере названо судно Ocean Albatros.,V3-S016,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0065,P15,hotel,Polar Latitudes Expeditions: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S016,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0066,P15,transfers_scope,Polar Latitudes Expeditions: отдельные перечисленные в опубликованном варианте трансферы включены; это не подтверждает все возможные трансферные участки.,V3-S016,PARTIAL_SEGMENT_SCOPE,selected_example,2026-10-23
+C0067,P09,offer_and_role,PONANT: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S011,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0068,P09,routes,PONANT: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S011,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0069,P09,package_dates,PONANT: даты выбранного примера коммерческого пакета: 18.11.2026–28.11.2026.,V3-S011,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0070,P09,ship,PONANT: в выбранном примере названо судно L’Austral.,V3-S011,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0071,P09,hotel,PONANT: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S011,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0072,P09,flights,PONANT: авиаперелеты для выбранного опубликованного предложения имеют статус INCLUDED.,V3-S011,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0073,P14,offer_and_role,Poseidon Expeditions: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S015,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0074,P14,routes,Poseidon Expeditions: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S015,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0075,P14,package_dates,Poseidon Expeditions: даты выбранного примера коммерческого пакета: 28.11.2026–09.12.2026.,V3-S015,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0076,P14,ship,Poseidon Expeditions: в выбранном примере названо судно Sea Spirit.,V3-S015,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0077,P10,offer_and_role,Quark Expeditions: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S012,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0078,P10,routes,Quark Expeditions: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S012,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0079,P10,package_dates,Quark Expeditions: даты выбранного примера коммерческого пакета: 12.11.2026–22.11.2026.,V3-S012,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0080,P10,ship,Quark Expeditions: в выбранном примере названо судно Ocean Explorer.,V3-S012,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0081,P10,hotel,Quark Expeditions: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S012,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0082,P10,transfers_scope,Quark Expeditions: отдельные перечисленные в опубликованном варианте трансферы включены; это не подтверждает все возможные трансферные участки.,V3-S012,PARTIAL_SEGMENT_SCOPE,selected_example,2026-10-23
+C0083,P16,offer_and_role,Swan Hellenic: официальный источник подтверждает релевантную программу из Ушуайи в сезоне 2026–2027 и указанную в исследовании коммерческую роль.,V3-S018,OFFICIAL_OFFER_VERIFIED,selected_example,2026-10-23
+C0084,P16,routes,Swan Hellenic: опубликован пример маршрута с началом физической экспедиции в Ушуайе; порт окончания: Ушуайя.,V3-S018,OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0085,P16,package_dates,Swan Hellenic: даты выбранного примера коммерческого пакета: 11.11.2026–20.11.2026.,V3-S018,OFFICIAL_DATED_OFFER,selected_example,2026-10-23
+C0086,P16,ship,Swan Hellenic: в выбранном примере названо судно SH Minerva.,V3-S018,OFFICIAL_SHIP_REFERENCE,selected_example,2026-10-23
+C0087,P16,hotel,Swan Hellenic: гостиница для выбранного опубликованного предложения имеет статус INCLUDED.,V3-S018,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0088,P16,flights,Swan Hellenic: авиаперелеты для выбранного опубликованного предложения имеют статус INCLUDED.,V3-S018,PACKAGE_SPECIFIC_OFFICIAL,selected_example,2026-10-23
+C0089,P16,transfers_scope,Swan Hellenic: отдельные перечисленные в опубликованном варианте трансферы включены; это не подтверждает все возможные трансферные участки.,V3-S018,PARTIAL_SEGMENT_SCOPE,selected_example,2026-10-23
+C0090,P23,operating_partner,Intrepid Travel прямо указывает Polar Latitudes в качестве оператора полярного рейса Ocean Albatros.,V3-S010,DIRECT_PARTNER_DISCLOSURE,selected_example,2026-10-23
+C0091,P04,selected_group_language,"Клуб полярных путешествий обозначает рейс 08–19.12.2026 как русскоязычную группу, но это не доказывает язык всех лекций и экипажа.",V3-S022,SPECIFIC_DEPARTURE_LANGUAGE,selected_example,2026-10-23
+C0092,P22,embarkation_derived,"Chimu: пакет 22.11–03.12.2026, физическая посадка по дню 2 программы 23.11.2026.",V3-S025,DERIVED_FROM_OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0093,P10,embarkation_derived,Quark: вариант из Ушуайи имеет гостиницу в день 1 и посадку на судно в день 2; дату посадки 13.11.2026 нужно сопоставлять с датой начала конкретного пакета.,V3-S013,DERIVED_FROM_OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0094,P15,embarkation_derived,Polar Latitudes: пакет 04–14.11.2026 на Ocean Albatros; физическая посадка происходит на день 2 программы.,V3-S016;V3-S017,DERIVED_FROM_OFFICIAL_ITINERARY,selected_example,2026-10-23
+C0095,P09,inconsistency,PONANT указывает 18–28.11.2026 и 12 дней на той же официальной странице; это расхождение не исправлено исследователем.,V3-S011,DOCUMENTED_SOURCE_DISCREPANCY,selected_example,2026-10-23
+C0096,P16,tariff_specific,"Swan Hellenic указывает гостиницу до круиза, чартерные перелеты и групповые трансферы именно в тарифе Cruise Plus.",V3-S018,NAMED_TARIFF_ONLY,selected_example,2026-10-23
+C0097,P17,validated_date,"Текущий официальный каталог Oceanwide подтверждает HDS25-27, Hondius и 27.12.2026–06.01.2027.",V3-S030,OFFICIAL_CURRENT_CATALOG,selected_example,2026-10-23
+C0098,P02,additional_departure,Квинта-тур в обновленном официальном каталоге показывает 11.11.2026 как более ранний вариант; выбранный иллюстративный рейс 12.11 остается в ассортименте.,V3-S031;V3-S003,OFFICIAL_ALTERNATIVE_OPTION,selected_example,2026-10-23
+C0099,P05,additional_departure,АРТ-ТУР указывает SH Minerva 11–20.11 и SH Diana 12–21.11; ночь в Буэнос-Айресе не входит в указанные даты судового рейса.,V3-S034,OFFICIAL_ALTERNATIVE_OPTION,selected_example,2026-10-23
+C0100,P12,voyage_calendar,Aurora календарь подтверждает ANC017S 13–25.11.2026 на Sylvia Earle с маршрутом Ушуайя–Ушуайя.,V3-S033,OFFICIAL_CALENDAR,selected_example,2026-10-23
+C0101,P01,not_proven_ship_relation,Совпадение дат и отдельных цен Ada Tours с Oceanwide HDS25-27 не устанавливает договор или юридического судового оператора Ada Tours.,V3-S001;V3-S030,LIMITATION_NOT_POSITIVE_CLAIM,selected_example,2026-10-23

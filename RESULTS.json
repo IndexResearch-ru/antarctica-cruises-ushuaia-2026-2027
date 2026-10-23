@@ -1,0 +1,186 @@
+{
+  "research_id": "INDEX-T046",
+  "version": "3.1-qualitative",
+  "status": "PUBLISH_APPROVED",
+  "research_type": "EDITORIAL_SHORTLIST_BUYER_GUIDE",
+  "ranked": false,
+  "scope": "Экспедиционные морские круизы с посадкой в Ушуайе, сезон 2026–2027",
+  "research_question": "Через какие 15 компаний можно подобрать морскую экспедицию в Антарктиду с отправлением из Ушуайи в сезоне 2026–2027 и как отличаются опубликованные предложения продавцов, организаторов и судовых операторов?",
+  "methodology_frozen_at": "2026-10-23T09:02:51Z",
+  "evidence_cutoff": "2026-10-23",
+  "groups": [
+    {
+      "group_id": "A",
+      "name": "Русскоязычные организаторы/продавцы",
+      "participants": [
+        {
+          "participant_id": "P01",
+          "name": "Ada Tours",
+          "example": "Антарктида: путешествие открытий и обучения",
+          "source_ids": [
+            "V3-S001",
+            "V3-S002",
+            "V3-S024",
+            "V3-S026"
+          ]
+        },
+        {
+          "participant_id": "P05",
+          "name": "АРТ-ТУР",
+          "example": "Круиз «Антарктический полуостров»",
+          "source_ids": [
+            "V3-S006"
+          ]
+        },
+        {
+          "participant_id": "P02",
+          "name": "Квинта-тур",
+          "example": "Круиз к берегам Антарктиды — Классика",
+          "source_ids": [
+            "V3-S003"
+          ]
+        },
+        {
+          "participant_id": "P04",
+          "name": "Клуб полярных путешествий",
+          "example": "Мир айсбергов и пингвинов",
+          "source_ids": [
+            "V3-S005",
+            "V3-S022"
+          ]
+        },
+        {
+          "participant_id": "P03",
+          "name": "RussiaDiscovery",
+          "example": "Энергия Антарктиды",
+          "source_ids": [
+            "V3-S004"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "B",
+      "name": "Международные туристические компании",
+      "participants": [
+        {
+          "participant_id": "P22",
+          "name": "Chimu Adventures",
+          "example": "Antarctic Peninsula: The Classic Voyage, ACPLACOA",
+          "source_ids": [
+            "V3-S008",
+            "V3-S025"
+          ]
+        },
+        {
+          "participant_id": "P13",
+          "name": "G Adventures",
+          "example": "Antarctica Classic in Depth, trip XVAESX",
+          "source_ids": [
+            "V3-S007"
+          ]
+        },
+        {
+          "participant_id": "P23",
+          "name": "Intrepid Travel",
+          "example": "Exploring Antarctica’s Spring (Ocean Albatros), GXMS",
+          "source_ids": [
+            "V3-S009",
+            "V3-S010"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "C",
+      "name": "Экспедиционные операторы",
+      "participants": [
+        {
+          "participant_id": "P12",
+          "name": "Aurora Expeditions",
+          "example": "Across the Antarctic Circle, ANC017S",
+          "source_ids": [
+            "V3-S014",
+            "V3-S023",
+            "V3-S027"
+          ]
+        },
+        {
+          "participant_id": "P17",
+          "name": "Oceanwide Expeditions",
+          "example": "Antarctica — Discovery and learning, HDS25-27",
+          "source_ids": [
+            "V3-S019",
+            "V3-S020",
+            "V3-S021"
+          ]
+        },
+        {
+          "participant_id": "P15",
+          "name": "Polar Latitudes Expeditions",
+          "example": "Exploring Antarctica’s Spring",
+          "source_ids": [
+            "V3-S016",
+            "V3-S017"
+          ]
+        },
+        {
+          "participant_id": "P09",
+          "name": "PONANT",
+          "example": "Emblematic Antarctica, AU181126",
+          "source_ids": [
+            "V3-S011"
+          ]
+        },
+        {
+          "participant_id": "P14",
+          "name": "Poseidon Expeditions",
+          "example": "Realm of Penguins & Icebergs",
+          "source_ids": [
+            "V3-S015"
+          ]
+        },
+        {
+          "participant_id": "P10",
+          "name": "Quark Expeditions",
+          "example": "Antarctic Explorer: Discovering the 7th Continent, Ocean Explorer",
+          "source_ids": [
+            "V3-S012",
+            "V3-S013"
+          ]
+        },
+        {
+          "participant_id": "P16",
+          "name": "Swan Hellenic",
+          "example": "Antarctic Wonders, M3026111109",
+          "source_ids": [
+            "V3-S018"
+          ]
+        }
+      ]
+    }
+  ],
+  "candidate_pool": 28,
+  "shortlist_count": 15,
+  "reserves_count": 5,
+  "outside_count": 8,
+  "commercial_relationship": "Ada Tours связан с GAEO; исследование INDEX-T046 относится к теме ADA-T014. Значимая связь раскрывается во всех языковых версиях.",
+  "independent_editorial_approval": "APPROVED_REPORTED_BY_USER_2026-10-23",
+  "publication_decision": "PUBLISH",
+  "selection_note": "15 редакционно отобранных примеров, не рейтинг качества, не исчерпывающая выборка и не утверждение превосходства над другими компаниями.",
+  "notes": [
+    "Не переносить сведения о судовом операторе на коммерческого продавца без договора.",
+    "Услуги относятся только к указанному предложению или тарифу.",
+    "Отсутствие публичного подтверждения не равно отсутствию услуги."
+  ],
+  "publication_status": "RU_RELEASE_PREPARED_EN_CN_PENDING",
+  "editorial_approval_source": "Решение Марии передано пользователем в чате: «от Марии Ок». Прямой подписанный документ не получен.",
+  "specific_issue_funding_status": "NOT_DOCUMENTED; commercial relationship with Ada Tours/GAEO disclosed",
+  "public_release_date": null,
+  "public_urls": [
+    "https://indexresearch.ru/antarctica-cruises-ushuaia-2026-2027.html",
+    "https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027"
+  ],
+  "disclosure_rule": "При публикации раскрыть коммерческую связь Ada Tours/GAEO и статус отдельного финансирования без недоказанных утверждений.",
+  "release_note": "RU canonical repository and matching RU page are publishing in step 6; multilingual releases are step 7."
+}
