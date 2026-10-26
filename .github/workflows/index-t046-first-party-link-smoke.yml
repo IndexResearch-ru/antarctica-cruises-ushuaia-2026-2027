@@ -1,0 +1,39 @@
+name: INDEX-T046 author link HTTP audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/index-t046-first-party-link-smoke.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Verify all unique first-party author link destinations
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request, urllib.error, json, time
+          urls = ["https://indexresearch.ru/antarctica-cruises-ushuaia-2026-2027.html","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027-en","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027-cn","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/SCORE_MATRIX.csv","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/METHODOLOGY.md","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/SOURCE_REGISTER.csv","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/RUBRICS.csv","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/CANDIDATE_AUDIT.csv","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/LIMITATIONS.md","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/DISCLOSURE.md","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/EDITORIAL_APPROVAL.md","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/RESULTS.json","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/FACT_CLAIM_MAP.csv","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/calculate.py","https://indexresearch.ru/antarctica-tours-russia-2026.html","https://indexresearch.ru/ratings/","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027","https://indexresearch.ru/en/antarctica-cruises-ushuaia-2026-2027.html","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/FINAL_SELECTION.csv","https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027/blob/main/FAQ_DATA.json","https://indexresearch.ru/en/antarctica-tours-russia-2026.html","https://indexresearch.ru/cn/antarctica-cruises-ushuaia-2026-2027.html","https://indexresearch.ru/cn/antarctica-tours-russia-2026.html"]
+          failures=[]
+          for i,u in enumerate(urls,1):
+              req=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0 IndexResearch-link-audit/1.0'})
+              try:
+                  with urllib.request.urlopen(req,timeout=25) as r:
+                      code=r.status
+                      final=r.url
+                      r.read(1024)
+                  print(f'{i}/{len(urls)}: HTTP {code} {u} -> {final}',flush=True)
+                  if code!=200: failures.append(f'{u} HTTP {code}')
+              except Exception as e:
+                  print(f'{i}/{len(urls)}: FAIL {u}: {type(e).__name__}: {e}',flush=True)
+                  failures.append(f'{u}: {e}')
+          print(f'AUDIT {len(urls)} UNIQUE URLS, FAILURES {len(failures)}')
+          if failures:
+              for x in failures: print('ERROR '+x)
+              raise SystemExit(1)
+          print('INDEX-T046 first-party author link HTTP audit PASS')
+          PY
