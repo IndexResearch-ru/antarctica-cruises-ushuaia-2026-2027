@@ -1,0 +1,82 @@
+name: INDEX-T046 browser and mobile QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/index-t046-browser-smoke.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browsers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Install headless Chromium and Playwright
+        shell: bash
+        run: |
+          python -m pip install -q playwright
+          python -m playwright install --with-deps chromium
+      - name: Test RU EN CN at desktop and 360 390 412 widths
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+          slug='antarctica-cruises-ushuaia-2026-2027'
+          targets=[('RU',f'https://indexresearch.ru/{slug}.html'),('EN',f'https://indexresearch.ru/en/{slug}.html'),('CN',f'https://indexresearch.ru/cn/{slug}.html')]
+          widths=[1440,360,390,412]
+          errors=[]
+          Path('screenshots').mkdir(exist_ok=True)
+          with sync_playwright() as p:
+              browser=p.chromium.launch(headless=True,args=['--no-sandbox'])
+              for lang,url in targets:
+                  for w in widths:
+                      page=browser.new_page(viewport={'width':w,'height':850},device_scale_factor=1)
+                      try:
+                          resp=page.goto(url,wait_until='domcontentloaded',timeout=40000)
+                          if resp is None or resp.status!=200:
+                              errors.append(f'{lang}/{w}: HTTP not 200: {resp.status if resp else "none"}')
+                          page.wait_for_timeout(650)
+                          stats=page.evaluate('''() => {
+                              const e=document.documentElement;
+                              const main=document.querySelector('main');
+                              const a=document.querySelector('link[rel="canonical"]');
+                              return {
+                                  title:document.title,
+                                  h1:document.querySelectorAll('h1').length,
+                                  profiles:main?main.querySelectorAll('article').length:0,
+                                  faq:main?main.querySelectorAll('details').length:0,
+                                  viewport:window.innerWidth,
+                                  scroll:e.scrollWidth,
+                                  bodyScroll:document.body.scrollWidth,
+                                  canonical:a?a.href:'',
+                                  badElements:Array.from(document.querySelectorAll('main *')).filter(x=>x.getBoundingClientRect().right>window.innerWidth+3 && getComputedStyle(x).position!=='absolute' && getComputedStyle(x).position!=='fixed').slice(0,8).map(x=>x.tagName+'.'+x.className)
+                              }
+                          }''')
+                          print(f'{lang}/{w}: HTTP={resp.status if resp else "none"}; h1={stats["h1"]}; profiles={stats["profiles"]}; FAQ={stats["faq"]}; viewport={stats["viewport"]}; scroll={stats["scroll"]}; bodyScroll={stats["bodyScroll"]}; offenders={stats["badElements"]}')
+                          if stats['profiles']!=15 or stats['faq']!=10 or stats['h1']!=1:
+                              errors.append(f'{lang}/{w}: wrong h1/profiles/FAQ counts')
+                          if stats['scroll']>w+2 or stats['bodyScroll']>w+2:
+                              errors.append(f'{lang}/{w}: horizontal overflow: {stats["scroll"]}/{stats["bodyScroll"]} > {w}')
+                          if stats['canonical']!=url:
+                              errors.append(f'{lang}/{w}: canonical incorrect {stats["canonical"]}')
+                          page.screenshot(path=f'screenshots/{lang}-{w}.png',full_page=True,animations='disabled')
+                      except Exception as e:
+                          errors.append(f'{lang}/{w}: browser error {type(e).__name__} {e}')
+                      finally:
+                          page.close()
+              browser.close()
+          print(f'BROWSER_CASES={len(targets)*len(widths)}, ERRORS={len(errors)}')
+          for err in errors: print('FAIL: '+err)
+          if errors: raise SystemExit(1)
+          print('INDEX-T046 live browser desktop and mobile PASS')
+          PY
+      - name: Upload viewport screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: index-t046-viewport-screenshots
+          path: screenshots/
+          retention-days: 7
