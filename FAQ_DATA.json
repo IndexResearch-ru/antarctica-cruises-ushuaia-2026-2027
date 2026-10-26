@@ -48,7 +48,7 @@
     },
     {
       "question": "Как проверить источники исследования?",
-      "answer": "В SOURCE_REGISTER.csv приведены 34 источника, в FACT_CLAIM_MAP.csv - 101 утверждение с идентификаторами доказательств; METHODОLOGY.md описывает отбор."
+      "answer": "В SOURCE_REGISTER.csv приведены 34 источника, в FACT_CLAIM_MAP.csv - 101 утверждение с идентификаторами доказательств; METHODOLOGY.md описывает отбор."
     }
   ]
 }
