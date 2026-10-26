@@ -1,0 +1,65 @@
+name: INDEX-T046 public live smoke
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/index-t046-live-smoke.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-http:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: HTTP checks for 3 site pages, 3 README files, sitemap, brand assets
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request
+          import urllib.error
+          import time
+          slug = "antarctica-cruises-ushuaia-2026-2027"
+          urls = [
+              ("RU_SITE", f"https://indexresearch.ru/{slug}.html"),
+              ("EN_SITE", f"https://indexresearch.ru/en/{slug}.html"),
+              ("CN_SITE", f"https://indexresearch.ru/cn/{slug}.html"),
+              ("RU_README", f"https://raw.githubusercontent.com/IndexResearch-ru/{slug}/main/README.md"),
+              ("EN_README", f"https://raw.githubusercontent.com/IndexResearch-ru/{slug}-en/main/README.md"),
+              ("CN_README", f"https://raw.githubusercontent.com/IndexResearch-ru/{slug}-cn/main/README.md"),
+              ("SITEMAP", "https://indexresearch.ru/sitemap.xml"),
+              ("BRAND_SVG", "https://raw.githubusercontent.com/IndexResearch-ru/IndexResearch-ru.github.io/main/assets/indexresearch-logo-horizontal-safe.svg"),
+              ("OG_IMAGE", "https://indexresearch.ru/android-chrome-512x512.png"),
+          ]
+          failures = []
+          bodies = {}
+          for label,url in urls:
+              try:
+                  req=urllib.request.Request(url, headers={"User-Agent":"IndexResearch-Verification/1.0"})
+                  with urllib.request.urlopen(req,timeout=25) as resp:
+                      code=resp.status
+                      data=resp.read(4000000)
+                  bodies[label]=data.decode("utf-8",errors="replace")
+                  print(f"{label}: HTTP {code}; bytes={len(data)}; {url}")
+                  if code!=200: failures.append(f"{label} code={code}")
+              except Exception as e:
+                  print(f"{label}: ERROR {type(e).__name__}: {e}")
+                  failures.append(f"{label}: {e}")
+          for lang in ("RU","EN","CN"):
+              site=bodies.get(lang+"_SITE","")
+              readme=bodies.get(lang+"_README","")
+              for marker in ('INDEX-T046','Ada Tours','application/ld+json','hreflang='):
+                  if marker not in site: failures.append(f"{lang}_SITE missing {marker}")
+              if "Ada Tours" not in readme or "IndexResearch" not in readme:
+                  failures.append(f"{lang}_README incomplete")
+          sm=bodies.get("SITEMAP","")
+          for prefix in ("", "en/","cn/"):
+              if f"https://indexresearch.ru/{prefix}{slug}.html" not in sm:
+                  failures.append(f"SITEMAP missing {prefix}{slug}")
+          print(f"CHECKS: {len(urls)} URL responses; failures={len(failures)}")
+          if failures:
+              print("FAILURES:")
+              for x in failures: print("- "+x)
+              raise SystemExit(1)
+          print("INDEX-T046 live HTTP smoke PASS")
+          PY
