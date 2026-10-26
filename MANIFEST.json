@@ -5,8 +5,8 @@
     "chars": 22857
   },
   "RUBRICS.csv": {
-    "bytes": 1282,
-    "sha256": "f7780f01ba8b22d721962b9f442d10eb4a5d74cab4b1388479a05219b889720d",
+    "bytes": 1274,
+    "sha256": "fc809120a3edf4506d94126a54403229998517daaa3eaaa44965c42c0ccd5857",
     "chars": 742
   },
   "metadata.json": {
@@ -15,13 +15,13 @@
     "sha256": "c728120c48e4e655b75b844aa5d26789299247d925055be53872085eaf4ce96b"
   },
   "CANDIDATE_AUDIT.csv": {
-    "bytes": 16156,
-    "sha256": "dc29feb639ec78b39f145a3c6a24d5059c2e1128f7e24ab400c37eca42ad2ccd",
+    "bytes": 16127,
+    "sha256": "0b131ab5bc13fa3e5c3be921772090f87162ebd36f08b9cba83ecf7d4881a81b",
     "chars": 13235
   },
   "SCORING_MODEL.csv": {
-    "bytes": 248,
-    "sha256": "f3984baeb396e65d56aaf47ef0d71e3c61ec73d57484463ff9f0e03de42644d6",
+    "bytes": 246,
+    "sha256": "e645023e4f66123935623ac1b3f9c2b46d2a99954eed886a5917345337eb8c0c",
     "chars": 184
   },
   "CHANGELOG.md": {
@@ -35,8 +35,8 @@
     "chars": 8706
   },
   "SCORE_MATRIX.csv": {
-    "bytes": 13682,
-    "sha256": "72f9ebbc9ac560ff80c0c7c0c7d36f332220c4402ce03c44d85de21d946defba",
+    "bytes": 13666,
+    "sha256": "7e8cb93c43f7bd6fc8f109bf9643cb610cdf122aed1ff67b20418d3ccdfaf1d2",
     "chars": 9593
   },
   "QA_REPORT.md": {
@@ -95,8 +95,8 @@
     "chars": 557
   },
   "FINAL_SELECTION.csv": {
-    "bytes": 14453,
-    "sha256": "11cad0521fee26d893b279de0232f27591886f7df413424a803c73111d04c560",
+    "bytes": 14437,
+    "sha256": "2ec2f8e58d882dc2b8f98ae37b2943ec07b2a43ab5a3cd9852197a4edb67cd82",
     "chars": 10362
   },
   "assets/README.md": {
