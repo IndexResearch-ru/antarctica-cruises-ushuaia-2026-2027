@@ -8,7 +8,7 @@
   "methodology_version": "3.1",
   "release_version": "3.1.0",
   "research_type": "EDITORIAL_SHORTLIST",
-  "status": "PUBLISH_APPROVED",
+  "status": "PUBLISHED",
   "ranked": false,
   "candidate_count": 28,
   "participants": 15,
@@ -23,5 +23,7 @@
   "commercial_relationship": "Ada Tours связана с GAEO",
   "specific_issue_funding": "NOT_DOCUMENTED",
   "site_url": "https://indexresearch.ru/antarctica-cruises-ushuaia-2026-2027.html",
-  "repository": "https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027"
+  "repository": "https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027",
+  "publication_status": "RU_PUBLISHED_EN_CN_PENDING",
+  "public_release_date": "2026-10-23"
 }

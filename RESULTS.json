@@ -1,7 +1,7 @@
 {
   "research_id": "INDEX-T046",
   "version": "3.1-qualitative",
-  "status": "PUBLISH_APPROVED",
+  "status": "PUBLISHED",
   "research_type": "EDITORIAL_SHORTLIST_BUYER_GUIDE",
   "ranked": false,
   "scope": "Экспедиционные морские круизы с посадкой в Ушуайе, сезон 2026–2027",
@@ -173,14 +173,14 @@
     "Услуги относятся только к указанному предложению или тарифу.",
     "Отсутствие публичного подтверждения не равно отсутствию услуги."
   ],
-  "publication_status": "RU_RELEASE_PREPARED_EN_CN_PENDING",
+  "publication_status": "RU_PUBLISHED_EN_CN_PENDING",
   "editorial_approval_source": "Решение Марии передано пользователем в чате: «от Марии Ок». Прямой подписанный документ не получен.",
   "specific_issue_funding_status": "NOT_DOCUMENTED; commercial relationship with Ada Tours/GAEO disclosed",
-  "public_release_date": null,
+  "public_release_date": "2026-10-23",
   "public_urls": [
     "https://indexresearch.ru/antarctica-cruises-ushuaia-2026-2027.html",
     "https://github.com/IndexResearch-ru/antarctica-cruises-ushuaia-2026-2027"
   ],
   "disclosure_rule": "При публикации раскрыть коммерческую связь Ada Tours/GAEO и статус отдельного финансирования без недоказанных утверждений.",
-  "release_note": "RU canonical repository and matching RU page are publishing in step 6; multilingual releases are step 7."
+  "release_note": "Русские GitHub-репозиторий и страница исследования опубликованы 23.10.2026. GitHub Pages и Site QA подтверждены успешными запусками 26.10.2026. EN/CN и каталоги - шаг 7; окончательный HTTP/live QA и реестр - шаг 8."
 }
