@@ -10,9 +10,9 @@
     "chars": 742
   },
   "metadata.json": {
-    "sha256": "e44118491626141504a2ba6046aef5abb3347974aee0fcd79adc25a2c4106ffc",
-    "bytes": 1632,
-    "chars": 1568
+    "sha256": "a5aeebf76570fec6bab2760860deac1c1a30b53e4aecef486ec6a9ace42a72ad",
+    "bytes": 1625,
+    "chars": 1561
   },
   "CANDIDATE_AUDIT.csv": {
     "bytes": 16127,
@@ -40,9 +40,9 @@
     "chars": 9593
   },
   "QA_REPORT.md": {
-    "sha256": "1c96f1325bfaa5e71969d120e7afbeb9c15d1f77969f4640a1eba4bbb4e868ae",
-    "bytes": 5095,
-    "chars": 3294
+    "sha256": "e532bdadddeda0469e9000d18ac3e4b95e9d2b2497a25ad9022cd7281a94de8a",
+    "bytes": 7700,
+    "chars": 5170
   },
   "calculate.py": {
     "bytes": 1263,
